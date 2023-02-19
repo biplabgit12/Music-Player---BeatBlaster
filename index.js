@@ -2,7 +2,7 @@
 let playlistSidebar = document.getElementsByClassName("playlistSidebar")[0];
 let closeIcon = document.getElementById("closeIcon");
 closeIcon.addEventListener("click", () => {
-    playlistSidebar.classList.add("sliderAnimate");
+    playlistSidebar.classList.remove("sliderAnimate");
 })
 
 
