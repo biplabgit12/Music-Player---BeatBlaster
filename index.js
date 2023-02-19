@@ -360,6 +360,7 @@ skip_previous.addEventListener("click", () => {
 
 // working on shuffle
 shuffleBtn.addEventListener("click", () => {
+    nonActiveMusic();  // unselect the select song
     if (shuffle === false) {
         shuffle = true;
         shuffleBtn.classList.add("active");
@@ -368,6 +369,8 @@ shuffleBtn.addEventListener("click", () => {
         shuffle = false;
         shuffleBtn.classList.remove("active");
     }
+    
+     activeMusic(); 
 })
 
 
