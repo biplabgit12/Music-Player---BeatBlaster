@@ -260,7 +260,7 @@ input[type=range] {
 @media only screen and (max-width:430px) {
     body {
         height: 100vh;
-        width: 46vh;
+        width: 48vh;
         background-size: 549px 883px;
         background-repeat: no-repeat;
         background-position: 46% 47%;
@@ -270,33 +270,46 @@ input[type=range] {
     }
 
     .music-card {
-        width: 225px;
-        height: 219px;
+        width: 300px;
+        height: 300px;
     }
 
     input[type=range] {
-        width: 113px;
+        width: 150px;
     }
 
     .music-card #artistName {
-        font-size: 13px;
+        font-size: 26px;
     }
 
     .music-card #musicName {
-        font-size: 19px;
+        font-size: 37px;
         margin-top: 8px;
     }
 
     .current_time {
-        font-size: 15px;
+        font-size: 23px;
     }
 
     .total_duration {
-        font-size: 15px;
+        font-size: 23px;
     }
 
+    #seekbar {
+        margin: 15px 18px;
+        height: 6px;
+    }
+    
+#seekbar::-webkit-slider-thumb {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border:3px solid rgb(10, 125, 239);
+    border-radius: 10px;
+}
+
     .music_controls_container span {
-        font-size: 28px;
+        /* font-size: 40px; */
         padding: 0px 4px;
     }
 
