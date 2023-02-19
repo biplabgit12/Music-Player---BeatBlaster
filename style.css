@@ -259,7 +259,7 @@ input[type=range] {
 @media only screen and (max-width:430px) {
     body {
         height: 100vh;
-        width: 61vh;
+        width: 48vh;
         background-size: 549px 883px;
         background-repeat: no-repeat;
         background-position: 46% 47%;
